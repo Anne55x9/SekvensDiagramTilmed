@@ -18,14 +18,14 @@
       </relativeChildShapes>
     </lifelineShape>
     <lifelineShape Id="da4ab402-52ee-4f61-8a70-9c443f5f0f74" absoluteBounds="1.8951508671688706, 1, 0.15, 7.0108117817091937" visible="true" visualStyleMode="Modified">
-      <lifelineMoniker Id="d59df6f6-6b4c-4668-ac9d-14ee7c5d9174" LastKnownName="Beboer" />
+      <lifelineMoniker Id="d59df6f6-6b4c-4668-ac9d-14ee7c5d9174" LastKnownName="beboer" />
       <relativeChildShapes>
         <umlLifelineHeadShape Id="73e16786-8664-4952-832f-c5cad7adff10" absoluteBounds="1.4701508671688706, 0.51455921453475106, 1, 0.48544078546524894" customColor="White" visualStyleMode="Modified">
-          <lifelineMoniker Id="d59df6f6-6b4c-4668-ac9d-14ee7c5d9174" LastKnownName="Beboer" />
+          <lifelineMoniker Id="d59df6f6-6b4c-4668-ac9d-14ee7c5d9174" LastKnownName="beboer" />
           <relativeChildShapes />
         </umlLifelineHeadShape>
         <lifelineHoverShape Id="6a346ee8-d930-4250-8093-46290bfece66" absoluteBounds="1.8951508671688706, 1, 0, 7">
-          <lifelineMoniker Id="d59df6f6-6b4c-4668-ac9d-14ee7c5d9174" LastKnownName="Beboer" />
+          <lifelineMoniker Id="d59df6f6-6b4c-4668-ac9d-14ee7c5d9174" LastKnownName="beboer" />
         </lifelineHoverShape>
       </relativeChildShapes>
     </lifelineShape>

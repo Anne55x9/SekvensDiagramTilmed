@@ -1,19 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <SequenceDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" dslVersion="1.0.0.0" Id="994a6ad0-133e-4537-ac61-d517b2db68da" name="Tilmed" linkedPackageId="f7fb16de-3564-4863-bf4a-28c6523553ea" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner">
-  <profileInstances>
-    <packageHasProfileInstances Id="88fa11f7-73dc-406e-ad3b-aab35353ed31">
-      <profileInstance Id="7fbd6f6f-dbe3-4c0d-88c3-d98fdf1c3de9" name="StandardProfileL2">
-        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
-      </profileInstance>
-      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="ef837d41-94ee-4cbe-93e3-1f89cd61b23c">
-      <profileInstance Id="e385701f-edc6-4366-9042-01dcd541ca70" name="StandardProfileL3">
-        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
-      </profileInstance>
-      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
-    </packageHasProfileInstances>
-  </profileInstances>
   <packagedElements>
     <packageHasNamedElement>
       <interaction Id="f4ad06cd-3708-4f5f-ba2f-04b63c929c35" name="Tilmed" collapseFragmentsFlag="false" isActiveClass="false" isAbstract="false" isLeaf="false" isReentrant="false">
@@ -55,7 +41,7 @@
           <messageOccurrenceSpecification Id="88c5a404-d50d-40f8-984f-23a03e246044" name="MessageOccurrenceSpecification1">
             <elementDefinition Id="312e330f-c62f-4456-aac5-ba0435710f99" />
             <covered>
-              <lifelineMoniker Id="d59df6f6-6b4c-4668-ac9d-14ee7c5d9174" LastKnownName="Beboer" />
+              <lifelineMoniker Id="d59df6f6-6b4c-4668-ac9d-14ee7c5d9174" LastKnownName="beboer" />
             </covered>
           </messageOccurrenceSpecification>
           <messageOccurrenceSpecification Id="45bffa17-d2e9-4747-b550-479aaf974ebf" name="MessageOccurrenceSpecification2">
@@ -153,16 +139,16 @@
               <lifelineMoniker Id="d1fb9e55-ac3d-4287-87d3-89184900e9b5" LastKnownName=": Tilmeld" />
             </covered>
           </executionOccurrenceSpecification>
-          <messageOccurrenceSpecification Id="11d1dbf4-2f56-4d89-922a-3256e2898751" name="MessageOccurrenceSpecification14">
-            <elementDefinition Id="c1d32506-9670-44e8-b2ca-88b890236e60" />
-            <covered>
-              <lifelineMoniker Id="d1fb9e55-ac3d-4287-87d3-89184900e9b5" LastKnownName=": Tilmeld" />
-            </covered>
-          </messageOccurrenceSpecification>
           <messageOccurrenceSpecification Id="4f53f70f-d821-403b-8f2e-b764275bdec4" name="MessageOccurrenceSpecification13">
             <elementDefinition Id="12e0fba8-bbd1-4326-a15e-71b8aac43fd3" />
             <covered>
               <lifelineMoniker Id="2a70be72-2c87-4ca0-85e9-dbcb6932e16c" LastKnownName=": MainView" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="11d1dbf4-2f56-4d89-922a-3256e2898751" name="MessageOccurrenceSpecification14">
+            <elementDefinition Id="c1d32506-9670-44e8-b2ca-88b890236e60" />
+            <covered>
+              <lifelineMoniker Id="d1fb9e55-ac3d-4287-87d3-89184900e9b5" LastKnownName=": Tilmeld" />
             </covered>
           </messageOccurrenceSpecification>
           <messageOccurrenceSpecification Id="f3202f3e-1792-4440-b6ff-290dae4a21e9" name="MessageOccurrenceSpecification15">
@@ -259,7 +245,7 @@
           <messageOccurrenceSpecification Id="e2051df2-5c62-4427-bb53-604df7b02e1d" name="MessageOccurrenceSpecification4">
             <elementDefinition Id="53185278-9c2a-4ee3-a351-2b39ff2eaa0c" />
             <covered>
-              <lifelineMoniker Id="d59df6f6-6b4c-4668-ac9d-14ee7c5d9174" LastKnownName="Beboer" />
+              <lifelineMoniker Id="d59df6f6-6b4c-4668-ac9d-14ee7c5d9174" LastKnownName="beboer" />
             </covered>
           </messageOccurrenceSpecification>
           <executionOccurrenceSpecification Id="b24195d5-1e55-49d7-859c-cc9e8dd55238" name="ExecutionOccurrenceSpecification2">
@@ -275,7 +261,7 @@
           </executionOccurrenceSpecification>
         </fragments>
         <lifelines>
-          <lifeline Id="d59df6f6-6b4c-4668-ac9d-14ee7c5d9174" name="Beboer" isActor="false" lifelineDisplayName="Beboer">
+          <lifeline Id="d59df6f6-6b4c-4668-ac9d-14ee7c5d9174" name="beboer" isActor="false" lifelineDisplayName="beboer">
             <elementDefinition Id="3c3e9b14-767d-47fb-85d4-4d90012a43e1" />
             <topLevelOccurrences>
               <messageOccurrenceSpecificationMoniker Id="88c5a404-d50d-40f8-984f-23a03e246044" LastKnownName="MessageOccurrenceSpecification1" />
@@ -425,5 +411,19 @@
   </packagedElements>
   <package Id="f7fb16de-3564-4863-bf4a-28c6523553ea" name="SekvensDiagramTilmed">
     <elementDefinition Id="1d83368e-47e5-4bc7-b9b4-862f46141ec2" />
+    <profileInstances>
+      <packageHasProfileInstances Id="88fa11f7-73dc-406e-ad3b-aab35353ed31">
+        <profileInstance Id="7fbd6f6f-dbe3-4c0d-88c3-d98fdf1c3de9" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="ef837d41-94ee-4cbe-93e3-1f89cd61b23c">
+        <profileInstance Id="e385701f-edc6-4366-9042-01dcd541ca70" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
   </package>
 </SequenceDesignerModel>

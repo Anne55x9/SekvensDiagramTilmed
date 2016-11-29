@@ -108,7 +108,7 @@
             <covered>
               <lifelineMoniker
                 Id="3c3e9b14-767d-47fb-85d4-4d90012a43e1"
-                LastKnownName="Beboer"
+                LastKnownName="beboer"
                 LastKnownLocation="SekvensDiagramTilmed.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -281,22 +281,22 @@
             </covered>
           </executionOccurrenceSpecification>
           <messageOccurrenceSpecification
-            Id="c1d32506-9670-44e8-b2ca-88b890236e60"
-            name="MessageOccurrenceSpecification14">
-            <covered>
-              <lifelineMoniker
-                Id="ad8ded92-1641-41f5-a44d-05a5e0eae60c"
-                LastKnownName=": Tilmeld"
-                LastKnownLocation="SekvensDiagramTilmed.uml" />
-            </covered>
-          </messageOccurrenceSpecification>
-          <messageOccurrenceSpecification
             Id="12e0fba8-bbd1-4326-a15e-71b8aac43fd3"
             name="MessageOccurrenceSpecification13">
             <covered>
               <lifelineMoniker
                 Id="483d4063-f01d-4c51-82ab-4b84e573f088"
                 LastKnownName=": MainView"
+                LastKnownLocation="SekvensDiagramTilmed.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="c1d32506-9670-44e8-b2ca-88b890236e60"
+            name="MessageOccurrenceSpecification14">
+            <covered>
+              <lifelineMoniker
+                Id="ad8ded92-1641-41f5-a44d-05a5e0eae60c"
+                LastKnownName=": Tilmeld"
                 LastKnownLocation="SekvensDiagramTilmed.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -462,7 +462,7 @@
             <covered>
               <lifelineMoniker
                 Id="3c3e9b14-767d-47fb-85d4-4d90012a43e1"
-                LastKnownName="Beboer"
+                LastKnownName="beboer"
                 LastKnownLocation="SekvensDiagramTilmed.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -488,9 +488,9 @@
         <lifelines>
           <lifeline
             Id="3c3e9b14-767d-47fb-85d4-4d90012a43e1"
-            name="Beboer"
+            name="beboer"
             isActor="false"
-            lifelineDisplayName="Beboer">
+            lifelineDisplayName="beboer">
             <topLevelOccurrences>
               <messageOccurrenceSpecificationMoniker
                 Id="312e330f-c62f-4456-aac5-ba0435710f99"
